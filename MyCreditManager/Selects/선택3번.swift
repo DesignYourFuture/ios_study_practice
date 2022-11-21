@@ -18,6 +18,7 @@ func 선택3번() {
         return
     }
     
+    // MARK: - Logic
     let name: String = String(inputs[0])
     let subject: String = String(inputs[1])
     let gradeString = String(inputs[2])

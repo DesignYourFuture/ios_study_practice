@@ -18,6 +18,7 @@ func 선택4번() {
         return
     }
     
+    // MARK: - Logic
     let name = String(inputs[0])
     let subject = String(inputs[1])
     
