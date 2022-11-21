@@ -21,6 +21,6 @@ func 선택1번() {
         students[input] = Student()
         print(input + " " + StringSet.선택1번_성공)
     } else {
-        print(StringSet.선택1번_중복)
+        print(input + StringSet.선택1번_중복)
     }
 }
