@@ -29,7 +29,7 @@ func 질문() {
         case 선택타입._4번.rawValue: 선택4번()
         case 선택타입._5번.rawValue: 선택5번()
         case 선택타입.종료.rawValue: return
-        default: print("정의하지 않은 input")
+        default: print(StringSet.잘못된선택)
         }
     }
     
