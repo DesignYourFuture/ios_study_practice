@@ -33,18 +33,6 @@ func 선택1번() {
     //    }
 }
 
-func 선택5번() {
-    print(StringSet.선택5번)
-    
-    let input = readLine() ?? ""
-    guard let student = students[input] else { return }
-    
-    print(StringSet.선택5번_성공(student))
-}
-
-
-
-
 struct StringSet {
     // MARK: - excute
     static let 질문 = "원하는 기능을 입력해주세요."
