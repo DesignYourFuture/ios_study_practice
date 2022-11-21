@@ -41,6 +41,7 @@
 		B1C55EA6292BCB6A004A0021 /* 선택4번.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "선택4번.swift"; sourceTree = "<group>"; };
 		B1C55EA8292BD174004A0021 /* 선택5번.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "선택5번.swift"; sourceTree = "<group>"; };
 		B1C55EAA292BD25E004A0021 /* 질문.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "질문.swift"; sourceTree = "<group>"; };
+		B1C55EAC292BD341004A0021 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		B1C55E86292B9825004A0021 = {
 			isa = PBXGroup;
 			children = (
+				B1C55EAC292BD341004A0021 /* README.md */,
 				B1C55E91292B9825004A0021 /* MyCreditManager */,
 				B1C55E90292B9825004A0021 /* Products */,
 			);
