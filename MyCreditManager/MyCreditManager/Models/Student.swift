@@ -34,8 +34,20 @@ struct Student {
             case "F": return .f
             default: return nil
             }
-
         }
         
+        static func convertToString(_ grade: Grade) -> String {
+            switch grade {
+            case aplus: return "A+"
+            case a0: return "A"
+            case bplus: return "B+"
+            case b0: return "B"
+            case cplus: return "C+"
+            case c0: return "C"
+            case dplus: return "D+"
+            case d0: return "D"
+            case f: return "F"
+            }
+        }
     }
 }

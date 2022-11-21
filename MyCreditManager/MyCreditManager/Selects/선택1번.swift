@@ -33,6 +33,15 @@ func 선택1번() {
     //    }
 }
 
+func 선택5번() {
+    print(StringSet.선택5번)
+    
+    let input = readLine() ?? ""
+    guard let student = students[input] else { return }
+    
+    print(StringSet.선택5번_성공(student))
+}
+
 
 
 
@@ -78,4 +87,21 @@ struct StringSet {
     static let 선택4번_실패_입력이_잘못되었을때 = "입력이 잘못 되었습니다. 다시 확인해주세요."
     static let 선택4번_실패_학생이_없을떄 = "학생을 찾지 못했습니다."
     static let 선택4번_실패_과목이_없을떄 = "학생이 수강한 과목을 찾지 못했습니다."
+    
+    // MARK: - 선택 5번
+    static let 선택5번 = "평점을 알고싶은 학생의 이름을 입력해주세요"
+    static func 선택5번_성공(_ student: Student) -> String {
+        var text: String = ""
+        var sum: Float = 0.0
+        student.성적.forEach { key, value in
+            text += key + ": " + Student.Grade.convertToString(value) + "\n"
+            sum += value.rawValue
+        }
+        
+        sum = sum / Float(student.성적.count)
+        text = text + "평점: " + String(sum)
+        return text
+    }
+    static let 선택5번_실패_입력이_잘못되었을때 = "입력이 잘못 되었습니다. 다시 확인해주세요."
+    static let 선택5번_실패_학생이_없을떄 = "학생을 찾지 못했습니다."
 }
