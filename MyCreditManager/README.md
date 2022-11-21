@@ -1,6 +1,7 @@
 #  원티드 프리온보딩 챌린지 11월 iOS과정 사전과제
 
 [👉 원티드 프리온보딩 iOS 챌린지 11월 원티드 바로가기](https://www.wanted.co.kr/events/pre_challenge_ios_1)
+
 [👉 원티드 사전과제 노션 바로가기](https://yagomacademy.notion.site/iOS-ba2d0c0bb0b949c896cc28567706e969)
 
 
@@ -49,28 +50,28 @@
 
 #### **메뉴의 잘못된 입력 처리**
 
-![0](./image/example0.png)
+![0](./Image/example0.png)
 
 #### **학생추가**
 
-![1](./image/example1.png)
+![1](./Image/example1.png)
 
 #### **학생 삭제**
 
-![2](./image/example2.png)
+![2](./Image/example2.png)
 
 #### **성적추가**
 
-![3](./image/example3.png)
+![3](./Image/example3.png)
 
 #### **성적삭제**
 
-![4](./image/example4.png)
+![4](./Image/example4.png)
 
 ### **평점보기**
 
-![5](./image/example5.png)
+![5](./Image/example5.png)
 
 ### **종료**
 
-![5](./image/example6.png)
+![6](./Image/example6.png)
