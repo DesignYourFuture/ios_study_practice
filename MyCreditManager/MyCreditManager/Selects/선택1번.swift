@@ -13,12 +13,16 @@ func 선택1번() {
     // MARK: - Input
     guard let input = readLine(), input.trimmingCharacters(in: .whitespaces).count > 0 else {
         print(StringSet.선택1번_실패)
-        질문()
         return
     }
     
     // MARK: - Logic
-    guard students[input]
+    if students[input] == nil {
+        students[input] = Student()
+        print(input + " " + StringSet.선택1번_성공)
+    } else {
+        print(StringSet.선택1번_중복)
+    }
 //    if students.contains(where: { student in
 //        student.이름 == input
 //    }) {

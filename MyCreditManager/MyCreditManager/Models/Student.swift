@@ -8,7 +8,6 @@
 import Foundation
 
 struct Student {
-    var 이름: String
     var 성적: [String: Grade] = [:]
     
     enum Grade: Float {
