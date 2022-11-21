@@ -47,19 +47,16 @@ func 선택3번() {
     let name: String = String(inputs[0])
     let subject: String = String(inputs[1])
     let gradeString = String(inputs[2])
-    guard let grade = Student.Grade.convertToGarde(gradeString) else {
+    guard let grade = Student.Grade.convertToGarde(gradeString),
+          students[name] != nil
+    else {
         print(StringSet.선택3번_실패)
         return
     }
     
     // MARK: - Logic
-    
-    if students[name] != nil {
-        students[name]!.성적[subject] = grade
-        print(name + StringSet.선택3번_성공(subject, gradeString))
-    } else {
-        print(StringSet.선택3번_실패)
-    }
+    students[name]!.성적[subject] = grade
+    print(name + StringSet.선택3번_성공(subject, gradeString))
 }
 
 
