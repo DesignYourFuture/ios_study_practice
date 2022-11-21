@@ -34,25 +34,32 @@ func 선택1번() {
 }
 
 func 선택3번() {
-//    print(StringSet.선택3번)
-//    
-//    // MARK: - Input
-//    let inputs = readLine()?.split(separator: " ")
-//    
-//    guard inputs?.count == 3, // 인덱스 에러 처리
-//          let name = inputs?[0], // 이름
-//          let subject = inputs?[1], // 과목
-//          let grade = inputs?[2], // 성적
-//          let index = students.firstIndex(where: { student in student.이름 == name }) // 이름의 해당 학생이 들어 있는지
-//    else {
-//        print(StringSet.선택3번_실패)
-//        return
-//    }
-//    
-//    // MARK: - Logic
-//    students[index]
-//    
-//    print(name + StringSet.선택3번_성공("\(subject)", "\(grade)"))
+    print(StringSet.선택3번)
+    
+    // MARK: - Input
+    guard let inputs = readLine()?.split(separator: " "),
+          inputs.count == 3
+    else {
+        print(StringSet.선택3번_실패)
+        return
+    }
+    
+    let name: String = String(inputs[0])
+    let subject: String = String(inputs[1])
+    let gradeString = String(inputs[2])
+    guard let grade = Student.Grade.convertToGarde(gradeString) else {
+        print(StringSet.선택3번_실패)
+        return
+    }
+    
+    // MARK: - Logic
+    
+    if students[name] != nil {
+        students[name]!.성적[subject] = grade
+        print(name + StringSet.선택3번_성공(subject, gradeString))
+    } else {
+        print(StringSet.선택3번_실패)
+    }
 }
 
 
