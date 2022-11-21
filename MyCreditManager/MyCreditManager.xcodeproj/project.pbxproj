@@ -48,6 +48,7 @@
 		B1C55EB1292BDB2C004A0021 /* example5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example5.png; sourceTree = "<group>"; };
 		B1C55EB2292BDB2D004A0021 /* example2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example2.png; sourceTree = "<group>"; };
 		B1C55EB3292BDB2D004A0021 /* example4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example4.png; sourceTree = "<group>"; };
+		B1C55EB4292BDC82004A0021 /* example6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +129,7 @@
 				B1C55EB0292BDB2C004A0021 /* example3.png */,
 				B1C55EB3292BDB2D004A0021 /* example4.png */,
 				B1C55EB1292BDB2C004A0021 /* example5.png */,
+				B1C55EB4292BDC82004A0021 /* example6.png */,
 			);
 			path = Image;
 			sourceTree = "<group>";
