@@ -12,6 +12,7 @@
 		B1C55E9C292BAE93004A0021 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C55E9B292BAE93004A0021 /* Student.swift */; };
 		B1C55EA1292BAECE004A0021 /* StringSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C55EA0292BAECE004A0021 /* StringSet.swift */; };
 		B1C55EA3292BB5AA004A0021 /* 선택2번.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C55EA2292BB5AA004A0021 /* 선택2번.swift */; };
+		B1C55EA5292BC7A9004A0021 /* 선택3번.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C55EA4292BC7A9004A0021 /* 선택3번.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		B1C55E9B292BAE93004A0021 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		B1C55EA0292BAECE004A0021 /* StringSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringSet.swift; sourceTree = "<group>"; };
 		B1C55EA2292BB5AA004A0021 /* 선택2번.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "선택2번.swift"; sourceTree = "<group>"; };
+		B1C55EA4292BC7A9004A0021 /* 선택3번.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "선택3번.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			children = (
 				B1C55E99292BAE75004A0021 /* 선택1번.swift */,
 				B1C55EA2292BB5AA004A0021 /* 선택2번.swift */,
+				B1C55EA4292BC7A9004A0021 /* 선택3번.swift */,
 			);
 			path = Selects;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1C55EA5292BC7A9004A0021 /* 선택3번.swift in Sources */,
 				B1C55E93292B9825004A0021 /* main.swift in Sources */,
 				B1C55EA1292BAECE004A0021 /* StringSet.swift in Sources */,
 				B1C55E9C292BAE93004A0021 /* Student.swift in Sources */,
