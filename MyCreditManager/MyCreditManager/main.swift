@@ -23,7 +23,7 @@ func 질문() {
         switch input {
         case 선택타입._1번.rawValue: 선택1번()
         case 선택타입._2번.rawValue: 선택2번()
-        case 선택타입._2번.rawValue: 선택3번()
+        case 선택타입._3번.rawValue: 선택3번()
         case 선택타입.종료.rawValue: return
         default: print("정의하지 않은 input")
         }
@@ -34,7 +34,7 @@ func 질문() {
 print("Hello World")
 
 // MARK: - Properties
-var students: [Student] = [] {
+var students: [String: Student] = [:] {
     didSet { print("💕 \(students)")}
 }
 

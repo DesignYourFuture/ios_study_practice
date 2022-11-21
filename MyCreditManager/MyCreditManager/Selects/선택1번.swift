@@ -18,37 +18,44 @@ func 선택1번() {
     }
     
     // MARK: - Logic
-    if students.contains(where: { student in
-        student.이름 == input
-    }) {
-        print(input + StringSet.선택1번_중복)
-    } else {
-        students.append(Student(이름: input))
-        print(input + " " + StringSet.선택1번_성공)
-    }
+    guard students[input]
+//    if students.contains(where: { student in
+//        student.이름 == input
+//    }) {
+//        print(input + StringSet.선택1번_중복)
+//    } else {
+//        students.append(Student(이름: input))
+//        print(input + " " + StringSet.선택1번_성공)
+//    }
 }
 
 func 선택3번() {
-    print(StringSet.선택3번)
-    
-    // MARK: - Input
-    let inputs = readLine()?.split(separator: " ")
-    
-    guard case inputs.count != 3,
-          let name = inputs[0],
-          let grade = inputs[2],
-          let index = students.firstIndex(where: { student in student.이름 = name })
-    else {
-        print(StringSet.선택3번_실패)
-        return
-    }
+//    print(StringSet.선택3번)
+//    
+//    // MARK: - Input
+//    let inputs = readLine()?.split(separator: " ")
+//    
+//    guard inputs?.count == 3, // 인덱스 에러 처리
+//          let name = inputs?[0], // 이름
+//          let subject = inputs?[1], // 과목
+//          let grade = inputs?[2], // 성적
+//          let index = students.firstIndex(where: { student in student.이름 == name }) // 이름의 해당 학생이 들어 있는지
+//    else {
+//        print(StringSet.선택3번_실패)
+//        return
+//    }
+//    
+//    // MARK: - Logic
+//    students[index]
+//    
+//    print(name + StringSet.선택3번_성공("\(subject)", "\(grade)"))
 }
 
 
 struct StringSet {
     // MARK: - excute
     static let 질문 = "원하는 기능을 입력해주세요."
-    static let 선택옵션 = "1: 학생추가, 2: 학생삭제, 3: 성정추가(변경), 4: 성적삭제:, 5: 평점보기, X: 종료"
+    static let 선택옵션 = "1: 학생추가, 2: 학생삭제, 3: 성적추가(변경), 4: 성적삭제:, 5: 평점보기, X: 종료"
     static let 잘못된선택 = "뭔가 입력이 잘못되었습니다. 1~5 사이의 숫자 혹은 X를 입력해주세요."
     
     // MARK: - 종료
@@ -67,9 +74,9 @@ struct StringSet {
     
     // MARK: - 선택 3번
     static let 선택3번 = """
-        성적을 추가할 학생의 이름, 과목 이름, 성적(A+, A, F 등)을 띄어쓰기로 구변하여 차례로 작성해주세요.
-        입력예) Mickey Swift A+
-        만약에 학생의 성적 중 해당 과목이 존재하면 기존 점수가 갱신됩니다.
+    성적을 추가할 학생의 이름, 과목 이름, 성적(A+, A, F 등)을 띄어쓰기로 구변하여 차례로 작성해주세요.
+    입력예) Mickey Swift A+
+    만약에 학생의 성적 중 해당 과목이 존재하면 기존 점수가 갱신됩니다.
     """
     static func 선택3번_성공(_ 과목: String, _ 성적: String) -> String {
         "학생의 \(과목) 과목이 \(성적)로 추가(변경) 되었습니다."
