@@ -42,6 +42,12 @@
 		B1C55EA8292BD174004A0021 /* 선택5번.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "선택5번.swift"; sourceTree = "<group>"; };
 		B1C55EAA292BD25E004A0021 /* 질문.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "질문.swift"; sourceTree = "<group>"; };
 		B1C55EAC292BD341004A0021 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B1C55EAE292BDB2C004A0021 /* example1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example1.png; sourceTree = "<group>"; };
+		B1C55EAF292BDB2C004A0021 /* example0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example0.png; sourceTree = "<group>"; };
+		B1C55EB0292BDB2C004A0021 /* example3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example3.png; sourceTree = "<group>"; };
+		B1C55EB1292BDB2C004A0021 /* example5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example5.png; sourceTree = "<group>"; };
+		B1C55EB2292BDB2D004A0021 /* example2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example2.png; sourceTree = "<group>"; };
+		B1C55EB3292BDB2D004A0021 /* example4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				B1C55EAC292BD341004A0021 /* README.md */,
+				B1C55EAD292BDB16004A0021 /* Image */,
 				B1C55E91292B9825004A0021 /* MyCreditManager */,
 				B1C55E90292B9825004A0021 /* Products */,
 			);
@@ -110,6 +117,19 @@
 				B1C55EA0292BAECE004A0021 /* StringSet.swift */,
 			);
 			path = Commons;
+			sourceTree = "<group>";
+		};
+		B1C55EAD292BDB16004A0021 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				B1C55EAF292BDB2C004A0021 /* example0.png */,
+				B1C55EAE292BDB2C004A0021 /* example1.png */,
+				B1C55EB2292BDB2D004A0021 /* example2.png */,
+				B1C55EB0292BDB2C004A0021 /* example3.png */,
+				B1C55EB3292BDB2D004A0021 /* example4.png */,
+				B1C55EB1292BDB2C004A0021 /* example5.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
