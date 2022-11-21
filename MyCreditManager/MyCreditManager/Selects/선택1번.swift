@@ -28,6 +28,22 @@ func 선택1번() {
     }
 }
 
+func 선택3번() {
+    print(StringSet.선택3번)
+    
+    // MARK: - Input
+    let inputs = readLine()?.split(separator: " ")
+    
+    guard case inputs.count != 3,
+          let name = inputs[0],
+          let grade = inputs[2],
+          let index = students.firstIndex(where: { student in student.이름 = name })
+    else {
+        print(StringSet.선택3번_실패)
+        return
+    }
+}
+
 
 struct StringSet {
     // MARK: - excute
@@ -48,4 +64,15 @@ struct StringSet {
     static let 선택2번 = "삭제할 학생의 이름을 입력해주세요."
     static let 선택2번_성공 = "학생을 삭제했습니다."
     static let 선택2번_실패 = " 학생을 찾지 못했습니다."
+    
+    // MARK: - 선택 3번
+    static let 선택3번 = """
+        성적을 추가할 학생의 이름, 과목 이름, 성적(A+, A, F 등)을 띄어쓰기로 구변하여 차례로 작성해주세요.
+        입력예) Mickey Swift A+
+        만약에 학생의 성적 중 해당 과목이 존재하면 기존 점수가 갱신됩니다.
+    """
+    static func 선택3번_성공(_ 과목: String, _ 성적: String) -> String {
+        "학생의 \(과목) 과목이 \(성적)로 추가(변경) 되었습니다."
+    }
+    static let 선택3번_실패 = "입력이 잘못되었습니다. 다시 확인해주세요."
 }
