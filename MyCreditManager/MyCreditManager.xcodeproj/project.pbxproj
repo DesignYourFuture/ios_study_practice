@@ -15,6 +15,7 @@
 		B1C55EA5292BC7A9004A0021 /* 선택3번.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C55EA4292BC7A9004A0021 /* 선택3번.swift */; };
 		B1C55EA7292BCB6A004A0021 /* 선택4번.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C55EA6292BCB6A004A0021 /* 선택4번.swift */; };
 		B1C55EA9292BD174004A0021 /* 선택5번.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C55EA8292BD174004A0021 /* 선택5번.swift */; };
+		B1C55EAB292BD25E004A0021 /* 질문.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C55EAA292BD25E004A0021 /* 질문.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		B1C55EA4292BC7A9004A0021 /* 선택3번.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "선택3번.swift"; sourceTree = "<group>"; };
 		B1C55EA6292BCB6A004A0021 /* 선택4번.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "선택4번.swift"; sourceTree = "<group>"; };
 		B1C55EA8292BD174004A0021 /* 선택5번.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "선택5번.swift"; sourceTree = "<group>"; };
+		B1C55EAA292BD25E004A0021 /* 질문.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "질문.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		B1C55E9E292BAEA4004A0021 /* Selects */ = {
 			isa = PBXGroup;
 			children = (
+				B1C55EAA292BD25E004A0021 /* 질문.swift */,
 				B1C55E99292BAE75004A0021 /* 선택1번.swift */,
 				B1C55EA2292BB5AA004A0021 /* 선택2번.swift */,
 				B1C55EA4292BC7A9004A0021 /* 선택3번.swift */,
@@ -167,6 +170,7 @@
 			files = (
 				B1C55EA5292BC7A9004A0021 /* 선택3번.swift in Sources */,
 				B1C55E93292B9825004A0021 /* main.swift in Sources */,
+				B1C55EAB292BD25E004A0021 /* 질문.swift in Sources */,
 				B1C55EA1292BAECE004A0021 /* StringSet.swift in Sources */,
 				B1C55EA9292BD174004A0021 /* 선택5번.swift in Sources */,
 				B1C55EA7292BCB6A004A0021 /* 선택4번.swift in Sources */,
